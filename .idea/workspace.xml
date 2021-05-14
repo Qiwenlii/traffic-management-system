@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e02e842c-824a-4b0f-be56-e4eb148d731a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/tms/network/NetworkInitialiser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tms/network/NetworkInitialiser.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bNkoluqZy9i0SMMBI4pT7Gxx5k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.DESKTOP-3USO8H2\Desktop\csse 7023\ass2\svn\csse7023-s4569958\trunk\ass2\networks" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.NetworkInitialiserTest">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tms.Launcher" />
+      <module name="ass2" />
+      <option name="PROGRAM_PARAMETERS" value="networks\demo.txt" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;H:\JavaFX\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AveragingCongestionCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ass2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tms.congestion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tms.congestion" />
+      <option name="MAIN_CLASS_NAME" value="tms.congestion.AveragingCongestionCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntersectionLightsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ass2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tms.intersection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tms.intersection" />
+      <option name="MAIN_CLASS_NAME" value="tms.intersection.IntersectionLightsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetworkInitialiserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ass2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tms.network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tms.network" />
+      <option name="MAIN_CLASS_NAME" value="tms.network.NetworkInitialiserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetworkInitialiserTest.durationLessThanYellowTimePlus1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ass2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tms.network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tms.network" />
+      <option name="MAIN_CLASS_NAME" value="tms.network.NetworkInitialiserTest" />
+      <option name="METHOD_NAME" value="durationLessThanYellowTimePlus1Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Launcher" />
+      <item itemvalue="JUnit.AveragingCongestionCalculatorTest" />
+      <item itemvalue="JUnit.IntersectionLightsTest" />
+      <item itemvalue="JUnit.NetworkInitialiserTest" />
+      <item itemvalue="JUnit.NetworkInitialiserTest.durationLessThanYellowTimePlus1Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NetworkInitialiserTest" />
+        <item itemvalue="JUnit.AveragingCongestionCalculatorTest" />
+        <item itemvalue="JUnit.IntersectionLightsTest" />
+        <item itemvalue="Application.Launcher" />
+        <item itemvalue="JUnit.NetworkInitialiserTest.durationLessThanYellowTimePlus1Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\urnot\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e02e842c-824a-4b0f-be56-e4eb148d731a" name="Default Changelist" comment="" />
+      <created>1588480115345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588480115345</updated>
+      <workItem from="1619160608432" duration="1329000" />
+      <workItem from="1619185728649" duration="1937000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1588662229351</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588662229351</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1588693589105</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588693589105</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1588837258439</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588837258439</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1589131076004</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589131076004</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1589174941208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589174941208</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1589175416948</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589175416948</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1589281198690</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589281198690</updated>
+    </task>
+    <task id="LOCAL-00008">
+      <created>1589565331545</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589565331545</updated>
+    </task>
+    <task id="LOCAL-00009">
+      <created>1589785128790</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589785128791</updated>
+    </task>
+    <task id="LOCAL-00010">
+      <created>1589791304084</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589791304085</updated>
+    </task>
+    <task id="LOCAL-00011">
+      <created>1589869062147</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589869062147</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1589958014228</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589958014229</updated>
+    </task>
+    <task id="LOCAL-00013">
+      <created>1590048723647</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1590048723647</updated>
+    </task>
+    <task id="LOCAL-00014">
+      <created>1590062448545</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1590062448545</updated>
+    </task>
+    <task id="LOCAL-00015">
+      <created>1590121053423</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1590121053423</updated>
+    </task>
+    <task id="LOCAL-00016">
+      <created>1590122021696</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1590122021696</updated>
+    </task>
+    <task id="LOCAL-00017">
+      <created>1590126592804</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1590126592804</updated>
+    </task>
+    <task id="LOCAL-00018">
+      <created>1590127235517</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1590127235517</updated>
+    </task>
+    <task id="LOCAL-00019">
+      <created>1590127999421</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1590127999421</updated>
+    </task>
+    <task id="LOCAL-00020">
+      <created>1590128717158</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590128717158</updated>
+    </task>
+    <task id="LOCAL-00021">
+      <created>1590130581303</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1590130581304</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="122" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589872838637">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="122" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589872838637" />
+    <state x="209" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590113871796">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="209" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590113871796" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589876827604">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1589876827604" />
+    <state x="73" y="176" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589901100777">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="73" y="176" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1589901100777" />
+    <state x="427" y="113" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1589562303013">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="427" y="113" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1589562303013" />
+    <state x="476" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1589129789702">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="476" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589129789702" />
+    <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588659386868">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1588659386868" />
+    <state x="174" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589776087796">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="174" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1589776087796" />
+    <state x="467" y="230" width="431" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590124560719">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="467" y="230" width="431" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1590124560719" />
+    <state x="413" y="122" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1589193812017">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="122" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589193812017" />
+    <state x="172" y="0" key="CommitChangelistDialog2" timestamp="1590130579559">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="172" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590130579559" />
+    <state x="437" y="82" key="DetectedRootsChooserDialog" timestamp="1589193331667">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="82" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1589193331667" />
+    <state x="54" y="230" width="797" height="544" key="DiffContextDialog" timestamp="1590120271933">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="54" y="230" width="797" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1590120271933" />
+    <state x="357" y="108" key="FileChooserDialogImpl" timestamp="1593170423176">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="357" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593170423176" />
+    <state width="1323" height="209" key="GridCell.Tab.0.bottom" timestamp="1593170442768">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593170442768" />
+    <state width="1323" height="209" key="GridCell.Tab.0.center" timestamp="1593170442768">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="209" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593170442768" />
+    <state width="1323" height="209" key="GridCell.Tab.0.left" timestamp="1593170442768">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="209" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593170442768" />
+    <state width="1323" height="209" key="GridCell.Tab.0.right" timestamp="1593170442768">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="209" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593170442768" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1590128869533">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590128869533" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1590128869533">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590128869533" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1590128869533">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590128869533" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1590128869533">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590128869533" />
+    <state x="284" y="77" key="RollbackChangesDialog" timestamp="1589564882288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="284" y="77" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589564882288" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1589567796275">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589567796275" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1593143040231">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593143040231" />
+    <state x="381" y="265" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588923270507">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="381" y="265" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1588923270507" />
+    <state x="57" y="0" key="new project wizard" timestamp="1593170424968">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1593170424968" />
+    <state x="607" y="126" width="672" height="678" key="search.everywhere.popup" timestamp="1589889082513">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="607" y="126" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589889082513" />
+    <state x="530" y="279" key="svn.upgradeDialog" timestamp="1589565171554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="530" y="279" key="svn.upgradeDialog/0.0.1366.728@0.0.1366.728" timestamp="1589565171554" />
+    <state x="422" y="238" key="svn4idea.checkout.options" timestamp="1589565169808">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="422" y="238" key="svn4idea.checkout.options/0.0.1366.728@0.0.1366.728" timestamp="1589565169808" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tms/display/StructureView.java</url>
+          <line>144</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/tms/network/NetworkInitialiserTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="line" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

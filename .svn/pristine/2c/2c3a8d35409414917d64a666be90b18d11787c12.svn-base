@@ -1,0 +1,5 @@
+package tms.network;
+
+public class NetworkInitialiserTest {
+    String filename ="C:/Users/Administrator.DESKTOP-3USO8H2/Desktop/csse 7023/ass2/svn/csse7023-s4569958/trunk/ass2/networks";
+}

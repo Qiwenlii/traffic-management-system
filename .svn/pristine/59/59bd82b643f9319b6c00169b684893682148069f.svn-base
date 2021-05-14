@@ -1,0 +1,133 @@
+package tms.network;
+
+import tms.intersection.Intersection;
+import tms.util.IntersectionNotFoundException;
+import tms.util.InvalidNetworkException;
+import tms.util.InvalidOrderException;
+import tms.util.RouteNotFoundException;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class NetworkInitialiser{
+    public static final String LINE_INFO_SEPARATOR = ":";
+    public static final String LINE_LIST_SEPARATOR = ",";
+    private Network network;
+
+    public NetworkInitialiser() {}
+
+    /**
+     * Loads a saved Network from the file with the given filename.
+     * Network files have the following structure. Square brackets indicate that
+     * the data inside them is optional. For example, a route does not
+     * necessarily need a speed sign (speedSignSpeed).
+     *
+     * See the demo network for an example (demo.txt).
+     *
+     * ; This is a comment. It should be ignored.
+     * numIntersections
+     * numRoutes
+     * yellowTime
+     * intersectionId[:duration:sequence,of,intersection,ids]
+     * ... (more intersections)
+     * intersectionFromId:intersectionToId:defaultSpeed:numSensors
+     * [:speedSignSpeed]
+     * SENSORTYPE:threshold:list,of,data,values
+     * ... (more routes and sensors)
+     *
+     * A network file is invalid if any of the following conditions are true:
+     *
+     * The number of intersections specified is not equal to the number of
+     * intersections read from the file.
+     * The number of routes specified does not match the number read from the
+     * file.
+     * The number of sensors specified for a route does not match the number
+     * read from the line below.
+     * An intersection referenced by a route does not exist.
+     * An intersection has an invalid ID according to
+     * Network.createIntersection(String).
+     * Two or more intersections have the same identifier string.
+     * Two or more routes have the same starting and ending intersections,
+     * e.g. a route X→Y and another route X→Y. A route is allowed to end at its
+     * starting intersection, i.e. X→X is allowed.
+     * A sensor type that is not one of the three provided demo sensors.
+     * A route contains sensors of the same type.
+     * The traffic light yellow time is less than one (1).
+     * A traffic light duration is less than the traffic light yellow time plus
+     * one (1).
+     * For intersections with traffic lights:
+     * The traffic light order for an intersection is not a permutation of that
+     * intersection's incoming routes.
+     * The traffic light order for an intersection is empty.
+     * Any numeric value that should be non-negative is less than zero. This
+     * includes:
+     * route speeds
+     * speed sign speeds
+     * sensor thresholds (also, cannot be zero)
+     * sensor data values
+     * The colon-delimited format is violated, i.e. there are more/fewer colons
+     * than expected.
+     * Any numeric value fails to be parsed.
+     * An empty line occurs where a non-empty line is expected.
+     * The file contains any more than two (2) newline characters at the end of
+     * the file.
+     * @param filename
+     * @return
+     * @throws IOException
+     * @throws InvalidNetworkException
+     */
+    public static Network loadNetwork​(String filename)
+            throws IOException, InvalidNetworkException {
+        int totalLine = 0, totalIntersection = 0 , totalRoute = 0, nowLine = 1;
+        Network network = new Network();
+        try {
+            BufferedReader file = new BufferedReader(new FileReader(filename));
+            String line = file.readLine();
+            while(line != null) {
+                if (line.charAt(0) == ';') {
+                    line= file.readLine();
+                    continue;
+                }
+                else if (nowLine == 1) {
+                    //路口的数量
+                    totalIntersection =  Integer.parseInt(line);
+                }
+                else if (nowLine == 2) {
+                    //路的数量
+                    totalRoute =  Integer.parseInt(line);
+                }
+                else if (nowLine == 3) {
+                    //黄灯
+                    network.setYellowTime(Integer.parseInt(line));
+                }
+                else if (nowLine - 3 <= totalIntersection) {
+                    //对intersection进行处理，首先判断是否有light（存在“：”）
+                    if (line.contains(":")) {
+                        String[] content = line.split(":|,");
+                        List<String> order = new ArrayList<>();
+                        for (int i = 2; i < content.length; i++) {
+                            order.add(content[i]);
+                        }
+                        network.createIntersection(content[0]);
+                        network.addLights(content[0],
+                                (Integer.parseInt(content[1])),order);
+                        content = null;
+                        order.clear();
+                    } else {
+                        network.createIntersection(line);
+                    }
+                }
+                else if (nowLine - 3 - totalIntersection <= totalRoute ) {
+
+                }
+            }
+            return network;
+        }
+        catch (IntersectionNotFoundException | InvalidOrderException e){
+
+        }
+    }
+}
